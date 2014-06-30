@@ -1,1 +1,1 @@
-An auto censor plugin that enables you to stop worrying about players swearing on your server. The number of warnings can be specified, as can the action that is taken once the warnings are expired (kick or ban).
+An auto censor plugin that enables you to stop worrying about players swearing on your server. The number of warnings can be specified, as can the action that is taken once the warnings are expired (kick or ban)
