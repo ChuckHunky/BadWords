@@ -1,0 +1,27 @@
+name: BadWords
+main: uk.co.warmlight.andrew.BadWords.BadWords
+author: ChuckHunky
+version: 1.52
+description: A regular expression compatible AutoCensor with the ability to
+             specify warnings and kick/ban action
+commands:
+  badw:
+    description: Enables in-game access to the BadWords plugin
+    permission: badw.all
+    permission-message: You don't have <permission>
+    usage: |
+           Usage:
+           /badw list (Lists all banned words)
+           /badw add [word] (Add a word to the banned list)
+           /badw delete [word] (Remove a word from the list)
+           /badw ignorelist (List online players being ignored by BadWords)
+           /badw ignore [player name] (Ignore swearing by this player)
+           /badw watch [player name] (Undo the action of the "ignore" command)
+           /badw warnings [player] (How many warnings does player have left)
+           /badw reset [player] (Reset a player's warning and unbans them)
+           /badw reload (Reload the plugin's configuration)
+           /badw update (Update to the latest version)
+permissions:
+  badw.all:
+    description: Gives access to all BadWords commands
+    default: op
